@@ -13,6 +13,7 @@ Geoff F - Senior Technical Writer
 
    About.md
    Portfolio.md
+   Contact.md
    Samples.md
 
 
