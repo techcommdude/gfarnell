@@ -1,11 +1,21 @@
 # Contact
 
-Here's my current resume.
+## Current resume
 
-[Resume](../source/_static/Geoff_Farnell_CV_Senior_Technical_Writer.pdf "Resume")
+My current resume is available for download, [here](../source/_static/Geoff_Farnell_CV_Senior_Technical_Writer.pdf "Resume").
 
-## Level 2 heading
+## GitHub profile
 
-### Level 3 heading
 
-#### Level 4 heading
+* [GitHub](https://github.com/techcommdude "GitHub")
+
+
+
+## LinkedIn
+
+* [LinkedIn](https://www.linkedin.com/in/farnellg/ "LinkedIn")
+
+
+## Email
+
+* [farnellg@gmail.com](mailto:farnellg@gmail.com)
