@@ -8,13 +8,11 @@ Geoff Farnell - Senior Technical Writer
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Contents
 
    About.rst
    Portfolio.rst
    Samples.rst
-
-
 
 
 

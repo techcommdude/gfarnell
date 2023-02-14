@@ -6,10 +6,10 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Geoff'
+project = 'Geoff Farnell'
 copyright = '2023, Geoff Farnell'
-author = 'Geoff Farnell'
-release = '2.1'
+author = ''
+release = ''
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
