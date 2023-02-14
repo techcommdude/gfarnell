@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>Demo applications deployed on Heroku &#8212; Geoff F  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Contact" href="Contact.html" />
+    <link rel="prev" title="Portfolio" href="Portfolio.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="demo-applications-deployed-on-heroku">
+<h1>Demo applications deployed on Heroku<a class="headerlink" href="#demo-applications-deployed-on-heroku" title="Permalink to this heading">¶</a></h1>
+<section id="social-networking-blog-application-built-with-javascript-django-python-html-and-css">
+<h2>Social Networking/blog application built with Javascript, Django, Python, HTML and CSS<a class="headerlink" href="#social-networking-blog-application-built-with-javascript-django-python-html-and-css" title="Permalink to this heading">¶</a></h2>
+<p>A Twitter-like social network website for making posts and following users.</p>
+<p>This project is deployed on Heroku (please have patience since the instance is likely sleeping but will wake up after a few seconds): <a href="https://farnellg-social-network.herokuapp.com/">https://farnellg-social-network.herokuapp.com/</a></p>
+<p>A screencast of the project can be found here: <a href="https://youtu.be/mnw06wUITk8">https://youtu.be/mnw06wUITk8</a></p>
+<p>You can log in to the Heroku app above with this account that is already entered by default. No registration is required (although you can register):</p>
+<ul class="simple">
+<li><p>User: <strong>guest</strong></p></li>
+<li><p>Password: <strong>123</strong></p></li>
+</ul>
+<p>Some of the technologies I used when building this demo application:</p>
+<ul class="simple">
+<li><p>Javascript (vanilla, not a framework) with AJAX</p></li>
+<li><p>APIs in Python that return a JSON response</p></li>
+<li><p>Visual Studio Code</p></li>
+<li><p>Django web framework.  I used Django’s Paginator class to paginate the postings and stylized the pagination with Bootstrap.</p></li>
+<li><p>Git.</p></li>
+<li><p>HTML</p></li>
+<li><p>CSS</p></li>
+<li><p>Heroku hosting</p></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Project overview</strong></p>
+<p>This demo application completed the requirements below using JavaScript, Django/Python, HTML, and CSS:</p>
+<ul class="simple">
+<li><p><strong>New Post</strong>: Users who are signed in should be able to write a new text-based post by filling in text into a text area and then clicking a button to submit the post.</p>
+<ul>
+<li><p>The screenshot at the top of this specification shows the “New Post” box at the top of the “All Posts” page. You may choose to do this as well, or you may make the “New Post” feature a separate page.</p></li>
+</ul>
+</li>
+<li><p><strong>All Posts</strong>: The “All Posts” link in the navigation bar should take the user to a page where they can see all posts from all users, with the most recent posts first.</p>
+<ul>
+<li><p>Each post should include the username of the poster, the post content itself, the date and time at which the post was made, and the number of “likes” the post has (this will be 0 for all posts until you implement the ability to “like” a post later).</p></li>
+</ul>
+</li>
+<li><p><strong>Profile Page</strong>: Clicking on a username should load that user’s profile page. This page should:</p>
+<ul>
+<li><p>Display the number of followers the user has, as well as the number of people that the user follows.</p></li>
+<li><p>Display all of the posts for that user, in reverse chronological order.</p></li>
+<li><p>For any other user who is signed in, this page should also display a “Follow” or “Unfollow” button that will let the current user toggle whether or not they are * following this user’s posts. Note that this only applies to any “other” user: a user should not be able to follow themselves.</p></li>
+</ul>
+</li>
+<li><p><strong>Following</strong>: The “Following” link in the navigation bar should take the user to a page where they see all posts made by users that the current user follows.</p>
+<ul>
+<li><p>This page should behave just as the “All Posts” page does, just with a more limited set of posts.</p></li>
+<li><p>This page should only be available to users who are signed in.</p></li>
+</ul>
+</li>
+<li><p><strong>Pagination</strong>: On any page that displays posts, posts should only be displayed 10 on a page. If there are more than ten posts, a “Next” button should appear to take the user to the next page of posts (which should be older than the current page of posts). If not on the first page, a “Previous” button should appear to take the user to the previous page of posts as well.</p>
+<ul>
+<li><p>See the Hints section for some suggestions on how to implement this.</p></li>
+</ul>
+</li>
+<li><p><strong>Edit Post</strong>: Users should be able to click an “Edit” button or link on any of their own posts to edit that post.</p>
+<ul>
+<li><p>When a user clicks “Edit” for one of their own posts, the content of their post should be replaced with a textarea where the user can edit the content of their post.</p></li>
+<li><p>The user should then be able to “Save” the edited post. Using JavaScript, you should be able to achieve this without requiring a reload of the entire page.</p></li>
+<li><p>For security, ensure that your application is designed such that it is not possible for a user, via any route, to edit another user’s posts.</p></li>
+</ul>
+</li>
+<li><p><strong>“Like” and “Unlike”</strong>: Users should be able to click a button or link on any post to toggle whether or not they “like” that post.</p>
+<ul>
+<li><p>Using JavaScript, you should asynchronously let the server know to update the like count (as via a call to fetch) and then update the post’s like count displayed on the page, without requiring a reload of the entire page.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Geoff F</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="About.html">About me</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Portfolio.html">Portfolio</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Demo applications deployed on Heroku</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#social-networking-blog-application-built-with-javascript-django-python-html-and-css">Social Networking/blog application built with Javascript, Django, Python, HTML and CSS</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Contact.html">Contact</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="Portfolio.html" title="previous chapter">Portfolio</a></li>
+      <li>Next: <a href="Contact.html" title="next chapter">Contact</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2023, Geoff F.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.3.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/Demoapplications.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
