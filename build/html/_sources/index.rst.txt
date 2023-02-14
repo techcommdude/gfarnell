@@ -10,9 +10,10 @@ Geoff Farnell - Senior Technical Writer
    :maxdepth: 2
    :caption: Contents
 
-   About.rst
-   Portfolio.rst
-   Samples.rst
+
+   About.md
+   Portfolio.md
+   Samples.md
 
 
 
