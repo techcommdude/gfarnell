@@ -1,2 +1,2 @@
-Geoff Farnell - Senior Technical Writer
-=======================================
+About
+=====

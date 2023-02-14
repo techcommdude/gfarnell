@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Geoff Farnell - Senior Technical Writer
-=================================
+=======================================
 
 .. toctree::
    :maxdepth: 2
