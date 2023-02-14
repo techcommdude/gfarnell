@@ -25,7 +25,7 @@ Some of the technologies I used when building this demo application:
 * Heroku hosting
 
 -----------
-## Project overview
+**Project overview**
 
 This demo application completed the requirements below using JavaScript, Django/Python, HTML, and CSS:
 
