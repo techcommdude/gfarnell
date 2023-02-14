@@ -6,8 +6,8 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Geoff Farnell'
-copyright = '2023, Geoff Farnell'
+project = 'Geoff F'
+copyright = '2023, Geoff F'
 author = ''
 release = ''
 
