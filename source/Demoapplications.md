@@ -1,4 +1,4 @@
-# Demo applications deployed on Heroku
+# Demo web applications
 
 ## Social Networking/blog application built with Javascript, Django, Python, HTML and CSS
 
