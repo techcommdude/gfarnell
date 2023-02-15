@@ -269,6 +269,56 @@ Otherwise, the encyclopedia entry is saved to disk, and the user is taken to the
 <li><p><strong>Markdown to HTML Conversion</strong>: On each entry’s page, any Markdown content in the entry file is converted to HTML before being displayed to the user. The python-markdown2 package is used to perform this conversion.</p></li>
 </ul>
 </section>
+<hr class="docutils" />
+<section id="google-search-website">
+<h2>Google Search website<a class="headerlink" href="#google-search-website" title="Permalink to this heading">¶</a></h2>
+<p>This project is deployed on Heroku (have patience since the instance is likely sleeping): <a href="https://static-site-geoff.herokuapp.com/index.html" target="_blank" rel="noopener">https://static-site-geoff.herokuapp.com/index.html</a></p>
+<p>A screencast of the project can be found here: <a href="https://youtu.be/NbiYeKpHp8g" target="_blank" rel="noopener">https://youtu.be/NbiYeKpHp8g</a></p>
+<p>This site attempts resembles the aesthetics, style and functionality of the Google Search main page, Google Image Search, and Google Advanced Search.</p>
+<p>Some of the technologies used when building this project:</p>
+<ul class="simple">
+<li><p>Visual Studio Code</p></li>
+<li><p>Git</p></li>
+<li><p>HTML</p></li>
+<li><p>CSS</p></li>
+<li><p>Heroku</p></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Project overview</strong></p>
+<ul class="simple">
+<li><p>Three pages: one for regular Google Search (which is called <em>index.html</em>), one for Google Image Search, and one for Google Advanced Search.</p>
+<ul>
+<li><p>On the Google Search page, there are links in the upper-right of the page to go to Image Search or Advanced Search. On each of the other two pages, there is a link in the upper-right to go back to Google Search.</p></li>
+</ul>
+</li>
+<li><p>On the Google Search page, the user can type in a query, click “Google Search”, and be taken to the Google search results for that page.</p>
+<ul>
+<li><p>Like Google’s own, the search bar is centered with rounded corners. The search button is also centered, and is beneath the search bar.</p></li>
+</ul>
+</li>
+<li><p>On the Google Image Search page, the user can type in a query, click a search button, and be taken to the Google Image search results for that page.</p></li>
+<li><p>On the Google Advanced Search page, the user can provide input for the following four fields (taken from Google’s own advanced search options)</p>
+<ul>
+<li><p>Find pages with… “all these words:”</p></li>
+<li><p>Find pages with… “this exact word or phrase:”</p></li>
+<li><p>Find pages with… “any of these words:”</p></li>
+<li><p>Find pages with… “none of these words:”</p></li>
+</ul>
+</li>
+<li><p>Like Google’s own Advanced Search page, the four options are stacked vertically, and all of the text fields are left aligned.</p>
+<ul>
+<li><p>Consistent with Google’s own CSS, the “Advanced Search” button is blue with white text.</p></li>
+<li><p>When the “Advanced Search” button is clicked, the user is taken to the search results page for their given query.</p></li>
+</ul>
+</li>
+<li><p>The “I’m Feeling Lucky” button on the main Google Search page is consistent with Google’s own behavior. Clicking this link takes users directly to the first Google search result for the query, bypassing the normal results page.</p>
+<ul>
+<li><p>You may encounter a redirect notice when using the “I’m Feeling Lucky” button, but this is an expected consequence of a security feature implemented by Google.</p></li>
+</ul>
+</li>
+<li><p>The CSS resembles Google’s own aesthetics.</p></li>
+</ul>
+</section>
 </section>
 
 
@@ -291,6 +341,7 @@ Otherwise, the encyclopedia entry is saved to disk, and the user is taken to the
 <li class="toctree-l2"><a class="reference internal" href="#e-commerce-website">e-Commerce website</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#single-page-javascript-web-application">Single-page Javascript web application</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#wiki-markdown-converter">Wiki markdown converter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#google-search-website">Google Search website</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="Contact.html">Contact</a></li>
