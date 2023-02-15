@@ -19,4 +19,4 @@ I worked on this documentation at IBM.  If you need more specific information, p
 I've also deployed a number of demo web applications (built with Django/Python, JavaScript, HTML and CSS ) on Heroku. For more information, see [Web application demos](Demoapplications.md "Web application demos").
 
 
-<!-- This works for internal pages.  Have not figured out how to link to subtopics within page or on other pages:  see [Web application demos](Demoapplications.md "Web application demos"). -->
+<!--TODO: This works for internal pages.  Have not figured out how to link to subtopics or headings within page or on other pages:  see [Web application demos](Demoapplications.md "Web application demos"). -->
