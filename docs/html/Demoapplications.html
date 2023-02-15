@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>Demo web applications</title>
+    <title>Web application demos</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
@@ -36,10 +36,10 @@
 
           <div class="body" role="main">
             
-  <section id="demo-web-applications">
-<h1>Demo web applications<a class="headerlink" href="#demo-web-applications" title="Permalink to this heading">¶</a></h1>
-<section id="social-networking-blog-application-built-with-javascript-django-python-html-and-css">
-<h2>Social Networking/blog application built with Javascript, Django, Python, HTML and CSS<a class="headerlink" href="#social-networking-blog-application-built-with-javascript-django-python-html-and-css" title="Permalink to this heading">¶</a></h2>
+  <section id="web-application-demos">
+<h1>Web application demos<a class="headerlink" href="#web-application-demos" title="Permalink to this heading">¶</a></h1>
+<section id="social-networking-site">
+<h2>Social Networking site<a class="headerlink" href="#social-networking-site" title="Permalink to this heading">¶</a></h2>
 <p>A Twitter-like social network website for making posts and following users.</p>
 <p>This project is deployed on Heroku (please have patience since the instance is likely sleeping but will wake up after a few seconds): <a href="https://farnellg-social-network.herokuapp.com/">https://farnellg-social-network.herokuapp.com/</a></p>
 <p>A screencast of the project can be found here: <a href="https://youtu.be/mnw06wUITk8">https://youtu.be/mnw06wUITk8</a></p>
@@ -105,6 +105,170 @@
 </li>
 </ul>
 </section>
+<hr class="docutils" />
+<section id="e-commerce-website">
+<h2>e-Commerce website<a class="headerlink" href="#e-commerce-website" title="Permalink to this heading">¶</a></h2>
+<p>This simple app is an eBay-like e-commerce auction site that will allow users to post auction listings, place bids on listings, comment on listings, and add listings to a “watchlist.”</p>
+<p>This project is deployed on Heroku (please have patience since the instance is likely sleeping but will wake up after a few seconds): <a href="https://python-django-commerce.herokuapp.com/">https://python-django-commerce.herokuapp.com/</a></p>
+<p>A screencast of the project can be found here: <a href="https://youtu.be/6WfF_JHMtnU">https://youtu.be/6WfF_JHMtnU</a></p>
+<p>You can log in to the Heroku app above with this account that is already entered by default. No registration is required (although you can register):</p>
+<ul class="simple">
+<li><p>username: <strong>guest</strong></p></li>
+<li><p>password: <strong>123</strong></p></li>
+</ul>
+<p>Some of the technologies I used when building this demo application:</p>
+<ul class="simple">
+<li><p>Visual Studio Code</p></li>
+<li><p>Django web framework</p></li>
+<li><p>Python</p></li>
+<li><p>Git</p></li>
+<li><p>HTML</p></li>
+<li><p>CSS</p></li>
+<li><p>Heroku hosting</p></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Project overview</strong></p>
+<ul class="simple">
+<li><p><strong>Models</strong>: Application contains more than three models in addition to the User model: one for auction listings, one for bids, and one for comments made on auction listings.  See the <strong>models.py</strong> file for more information.</p></li>
+<li><p><strong>Create Listing</strong>: Users can visit a page to create a new listing. They should be able to specify a title for the listing, a text-based description, and what the starting bid should be. Users can also optionally be able to provide a URL for an image for the listing and/or a category (e.g. Fashion, Toys, Electronics, Home, etc.).</p></li>
+<li><p><strong>Active Listings Page</strong>: The default route of the web application lets users view all of the currently active auction listings. For each active listing, this page displays (at minimum) the title, description, current price, and photo (if one exists for the listing).</p></li>
+<li><p><strong>Listing Page</strong>: Clicking on a listing takes users to a page specific to that listing. On that page, users can view all details about the listing, including the current price for the listing.</p>
+<ul>
+<li><p>If the user is signed in, the user should be able to add the item to their “Watchlist.” If the item is already on the watchlist, the user should be able to remove it.</p></li>
+<li><p>If the user is signed in, the user should be able to bid on the item. The bid must be at least as large as the starting bid, and must be greater than any other bids that have been placed (if any). If the bid doesn’t meet those criteria, the user should be presented with an error.</p></li>
+<li><p>If the user is signed in and is the one who created the listing, the user can “close” the auction from this page, which makes the highest bidder the winner of the auction and makes the listing no longer active.</p></li>
+<li><p>If a user is signed in on a closed listing page, and the user has won that auction, the page should say so.</p></li>
+<li><p>Users who are signed in can add comments to the listing page. The listing page displays all comments that have been made on the listing.</p></li>
+</ul>
+</li>
+<li><p><strong>Watchlist</strong>: Users who are signed in can visit a Watchlist page which displays all of the listings that a user has added to their watchlist. Clicking on any of those listings takes the user to that listing’s page.</p></li>
+<li><p><strong>Categories</strong>: Users can visit a page that displays a list of all listing categories. Clicking on the name of any category takes the user to a page that displays all of the active listings in that category.</p></li>
+<li><p><strong>Django Admin Interface</strong>: Via the Django admin interface, as a site administrator you can view, add, edit, and delete any listings, comments, and bids made on the site.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="single-page-javascript-web-application">
+<h2>Single-page Javascript web application<a class="headerlink" href="#single-page-javascript-web-application" title="Permalink to this heading">¶</a></h2>
+<p>This project is a single-page Javascript application.  It is a mock email client application that makes API calls to compose, send and archive/unarchive email.  This project utilizes pre-built Python APIs with GET, POST and PUT requests in Javascript.  AJAX is used to fetch data from the server.  Javascript is used to display/hide information and manipulate the DOM for the various views in the app.</p>
+<p>You can use these credentials for the application:
+User email: <strong>guest&#64;example.com</strong>
+Password: <strong>123</strong></p>
+<p>You can also use these email addresses with the same password of “123” without the quotes: <strong>foo&#64;example.com</strong>, <strong>bar&#64;example.com</strong>, <strong>baz&#64;example.com</strong>.</p>
+<p>You can also register and create your own credentials.</p>
+<p>This project is deployed on Heroku (please have patience since the instance is likely sleeping but will wake up after a few seconds): <a href="https://mail-client-gfarnell.herokuapp.com/">https://mail-client-gfarnell.herokuapp.com/</a></p>
+<p>A screencast of the project can be found here: <a href="https://youtu.be/V2s00sozPkU">https://youtu.be/V2s00sozPkU</a></p>
+<p>You can log in to the Heroku app above with this account that is already entered by default. No registration is required (although you can register):</p>
+<ul class="simple">
+<li><p>Email: <strong>guest</strong></p></li>
+<li><p>Password: <strong>123</strong></p></li>
+</ul>
+<p>Some of the technologies I used when building this demo application:</p>
+<ul class="simple">
+<li><p>Javascript (vanilla, not a framework)</p></li>
+<li><p>Visual Studio Code</p></li>
+<li><p>Django web framework</p></li>
+<li><p>Git</p></li>
+<li><p>HTML</p></li>
+<li><p>CSS</p></li>
+<li><p>Heroku hosting</p></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Project overview</strong></p>
+<p>Using JavaScript, HTML, and CSS, complete the implementation of your single-page-app email client inside of inbox.js (and not additional or other files; for grading purposes, we’re only going to be considering inbox.js!). You must fulfill the following requirements:</p>
+<ul class="simple">
+<li><p><strong>Send Mail</strong>: When a user submits the email composition form, add JavaScript code to actually send the email.</p>
+<ul>
+<li><p>You’ll likely want to make a POST request to /emails, passing in values for recipients, subject, and body.</p></li>
+<li><p>Once the email has been sent, load the user’s sent mailbox.</p></li>
+</ul>
+</li>
+<li><p><strong>Mailbox</strong>: When a user visits their Inbox, Sent mailbox, or Archive, load the appropriate mailbox.</p>
+<ul>
+<li><p>You’ll likely want to make a GET request to /emails/<mailbox> to request the emails for a particular mailbox.</p></li>
+<li><p>When a mailbox is visited, the application should first query the API for the latest emails in that mailbox.</p></li>
+<li><p>When a mailbox is visited, the name of the mailbox should appear at the top of the page (this part is done for you).</p></li>
+<li><p>Each email should then be rendered in its own box (e.g. as a <div> with a border) that displays who the email is from, what the subject line is, and the timestamp of the email.</p></li>
+<li><p>If the email is unread, it should appear with a white background. If the email has been read, it should appear with a gray background.</p></li>
+</ul>
+</li>
+<li><p><strong>View Email</strong>: When a user clicks on an email, the user should be taken to a view where they see the content of that email.</p>
+<ul>
+<li><p>You’ll likely want to make a GET request to /emails/&lt;email_id&gt; to request the email.</p></li>
+<li><p>Your application should show the email’s sender, recipients, subject, timestamp, and body.</p></li>
+<li><p>You’ll likely want to add an additional div to inbox.html (in addition to emails-view and compose-view) for displaying the email. Be sure to update your code to hide and show the right views when navigation options are clicked.</p></li>
+<li><p>Once the email has been clicked on, you should mark the email as read. Recall that you can send a PUT request to /emails/&lt;email_id&gt; to update whether an email is read or not.</p></li>
+</ul>
+</li>
+<li><p><strong>Archive and Unarchive</strong>: Allow users to archive and unarchive emails that they have received.</p>
+<ul>
+<li><p>When viewing an Inbox email, the user should be presented with a button that lets them archive the email. When viewing an Archive email, the user should be presented with a button that lets them unarchive the email. This requirement does not apply to emails in the Sent mailbox.</p></li>
+<li><p>Recall that you can send a PUT request to /emails/&lt;email_id&gt; to mark an email as archived or unarchived.</p></li>
+<li><p>Once an email has been archived or unarchived, load the user’s inbox.</p></li>
+</ul>
+</li>
+<li><p><strong>Reply</strong>: Allow users to reply to an email.</p>
+<ul>
+<li><p>When viewing an email, the user should be presented with a “Reply” button that lets them reply to the email.</p></li>
+<li><p>When the user clicks the “Reply” button, they should be taken to the email composition form.</p></li>
+<li><p>Pre-fill the composition form with the recipient field set to whoever sent the original email.</p></li>
+<li><p>Pre-fill the subject line. If the original email had a subject line of foo, the new subject line should be Re: foo. (If the subject line already begins with Re: , no need to add it again.)</p></li>
+<li><p>Pre-fill the body of the email with a line like “On Jan 1 2020, 12:00 AM foo&#64;example.com wrote:” followed by the original text of the email.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="wiki-markdown-converter">
+<h2>Wiki markdown converter<a class="headerlink" href="#wiki-markdown-converter" title="Permalink to this heading">¶</a></h2>
+<p>This application allows users to create wiki topics/entries in Markdown format and save the entry in to the Django SQLITE3 database.  When viewing topics, Markdown content is retrieved from the database and displayed in the browser in HTML format.  The <strong>python-markdown2</strong> package is used to convert the markdown to HTML and vice-versa.</p>
+<p>This project is deployed on Heroku (have patience since the instance is likely sleeping): <a href="https://wiki-markdown-gfarnell.herokuapp.com/">https://wiki-markdown-gfarnell.herokuapp.com/</a></p>
+<p>A screencast of the project can be found here: <a href="https://youtu.be/XYzJSfeYuJI">https://youtu.be/XYzJSfeYuJI</a></p>
+<p>Some of the technologies I used when building the wiki app:</p>
+<ul class="simple">
+<li><p>Visual Studio Code</p></li>
+<li><p>Django web framework</p></li>
+<li><p>Python</p></li>
+<li><p>Git</p></li>
+<li><p>HTML</p></li>
+<li><p>CSS</p></li>
+</ul>
+<hr class="docutils" />
+<p><strong>Project overview</strong></p>
+<ul class="simple">
+<li><p><strong>Entry Page</strong>: Visiting <em>/wiki/TITLE</em>, where <strong>TITLE</strong> is the title of an encyclopedia entry, will render a page that displays the contents of that encyclopedia entry.</p>
+<ul>
+<li><p>The view gets the contents of the encyclopedia entry by calling the appropriate utility function.</p></li>
+<li><p>If an entry is requested that does not exist, the user is presented with an error page indicating that their requested page was not found.</p></li>
+<li><p>If the entry does exist, the user is presented with a page that displays the content of the entry. The title of the page includes the name of the entry.</p></li>
+</ul>
+</li>
+<li><p><strong>Index Page</strong>: The <em>index.html</em> lists the names of all pages in the encyclopedia and the user can click on any entry name to be taken directly to that entry page.</p></li>
+<li><p><strong>Search</strong>: The user can type a query into the search box in the sidebar to search for an encyclopedia entry.</p>
+<ul>
+<li><p>If the query matches the name of an encyclopedia entry, the user is redirected to that entry’s page.</p></li>
+<li><p>If the query does not match the name of an encyclopedia entry, the user is instead be taken to a search results page that displays a list of all encyclopedia entries that have the query as a substring. For example, if the search query were <em>ytho</em>, then Python should appear in the search results.</p></li>
+<li><p>Clicking on any of the entry names on the search results page takes the user to that entry’s page.</p></li>
+</ul>
+</li>
+<li><p><strong>New Page</strong>: Clicking “Create New Page” in the sidebar takes the user to a page where they can create a new encyclopedia entry.</p>
+<ul>
+<li><p>Users can enter a title for the page and, in a textarea, can enter the Markdown content for the page.</p></li>
+<li><p>Users can click a button to save their new page.</p></li>
+<li><p>When the page is saved, if an encyclopedia entry already exists with the provided title, the user is presented with an error message.
+Otherwise, the encyclopedia entry is saved to disk, and the user is taken to the new entry’s page.</p></li>
+</ul>
+</li>
+<li><p><strong>Edit Page</strong>: On each entry page, the user can click a link to be taken to a page where the user can edit that entry’s Markdown content in a textarea.</p>
+<ul>
+<li><p>The textarea is pre-populated with the existing Markdown content of the page. (i.e., the existing is the initial value of the textarea).</p></li>
+<li><p>The user can click a button to save the changes made to the entry.</p></li>
+<li><p>Once the entry is saved, the user is redirected back to that entry’s page.</p></li>
+</ul>
+</li>
+<li><p><strong>Random Page</strong>: Clicking “Random Page” in the sidebar takes the user to a random encyclopedia entry displayed in HTML format that the user can then edit.</p></li>
+<li><p><strong>Markdown to HTML Conversion</strong>: On each entry’s page, any Markdown content in the entry file is converted to HTML before being displayed to the user. The python-markdown2 package is used to perform this conversion.</p></li>
+</ul>
+</section>
 </section>
 
 
@@ -122,8 +286,11 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="About.html">About me</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Portfolio.html">Portfolio</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Demo web applications</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#social-networking-blog-application-built-with-javascript-django-python-html-and-css">Social Networking/blog application built with Javascript, Django, Python, HTML and CSS</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Web application demos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#social-networking-site">Social Networking site</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#e-commerce-website">e-Commerce website</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#single-page-javascript-web-application">Single-page Javascript web application</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#wiki-markdown-converter">Wiki markdown converter</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="Contact.html">Contact</a></li>

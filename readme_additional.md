@@ -6,9 +6,9 @@
 
 * Delete the /docs directory with *rm -r docs*.  Do this before each build.
 
-* For GitHub, need to add this line to the index.html file in the root of the /docs directory.  I have stored a copy of this file in the root of the project:
+* For GitHub, need to add this line to the *index.html* file in the root of the /docs directory.  I have stored a copy of this file in the root of the project:
     *<meta http-equiv="refresh" content="0; url=./html/index.html" />*
 
 * Put an empty *.nojekyll* file in the root of the */docs* build folder.
 
-* Need to create a */docs* folder as per this article: https://python.plainenglish.io/how-to-host-your-sphinx-documentation-on-github-550254f325ae
+* Need to create a */docs* folder as per this article.  This requires a configuration change in the *conf.py* file: https://python.plainenglish.io/how-to-host-your-sphinx-documentation-on-github-550254f325ae
