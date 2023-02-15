@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Geoff F'
+project = ''
 copyright = '2023, Geoff F'
 author = ''
 release = ''
@@ -15,6 +15,10 @@ release = ''
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = ['myst_parser']
+
+html_title = ''
+html_short_title = 'test'
+html_logo = '_static/python2.jpg'
 
 templates_path = ['_templates']
 exclude_patterns = []
