@@ -19,9 +19,14 @@ extensions = ['myst_parser']
 html_title = ''
 html_short_title = 'test'
 html_logo = '_static/python2.jpg'
+html_favicon = '_static/favicon-32x32_chipmunk.ico'
 
 templates_path = ['_templates']
 exclude_patterns = []
+
+html_sidebars = {
+   '**': ['globaltoc.html', 'searchbox.html', 'relations.html']
+}
 
 
 
