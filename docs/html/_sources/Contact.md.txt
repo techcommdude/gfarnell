@@ -2,11 +2,7 @@
 
 ## Current resume
 
-My current resume is available for download, <a href="_downloads/ed77f5b31f7119312f47c7360e9b511b/Geoff_Farnell_CV_Senior_Technical_Writer_Feb_2023.pdf" title="Geoff's resume">here</a>.
-
-<!-- This works as well:
-
-My current resume is available for download, [here](../source/_static/Geoff_Farnell_CV_Senior_Technical_Writer_Feb_2023.pdf "Resume"). -->
+My current resume is available for download, [here](../source/_static/Geoff_Farnell_CV_Senior_Technical_Writer_Feb_2023.pdf "Resume for Geoff Farnell").
 
 
 ## GitHub profile
