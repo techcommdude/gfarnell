@@ -4,11 +4,9 @@
 
 My current resume is available for download, [here](../source/_static/Geoff_Farnell_CV_Senior_Technical_Writer_Feb_2023.pdf "Resume for Geoff Farnell").
 
-
 ## GitHub profile
 
 * <a href="https://github.com/techcommdude" target="_blank" rel="noopener" title="Geoff's GitHub profile">GitHub</a>
-
 
 ## LinkedIn
 
