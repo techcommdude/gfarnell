@@ -17,9 +17,9 @@ release = ''
 extensions = ['myst_parser']
 
 html_title = ''
-html_short_title = 'test'
+html_short_title = ''
 html_logo = '_static/python2.jpg'
-html_favicon = '_static/favicon-32x32_chipmunk.ico'
+html_favicon = '_static/icons8-bullet-list-parakeet-32.ico'
 
 templates_path = ['_templates']
 exclude_patterns = []

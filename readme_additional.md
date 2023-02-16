@@ -12,3 +12,8 @@
 * Put an empty *.nojekyll* file in the root of the */docs* build folder.
 
 * Need to create a */docs* folder as per this article.  This requires a configuration change in the *conf.py* file: https://python.plainenglish.io/how-to-host-your-sphinx-documentation-on-github-550254f325ae
+
+
+## Notes
+
+* You can use this format in MD to open links in another tab:  *<a href="https://youtu.be/6WfF_JHMtnU" target="_blank" rel="noopener" title="alt text to specify">https://youtu.be/6WfF_JHMtnU</a>*

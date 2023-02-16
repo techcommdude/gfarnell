@@ -19,4 +19,7 @@ Microsoft Office, Framemaker, Acrobat, Visio
 
 ## About this site
 
-This site is built with [Sphinx](https://www.sphinx-doc.org/en/master/ "The best static site generator for documentation"), a Python-based static-site generator specifically designed for documentation and a Docs-as-Code approach.  To deploy this site, I created a virtual environment in VS Code and installed the Sphinx package with PIP.  I then configured the project to use [Markdown](https://en.wikipedia.org/wiki/Markdown "Markdown on wikipedia") files as the source.
+This site is built with <a href="https://www.sphinx-doc.org/en/master/" target="_blank" title="The best static site generator for documentation" rel="noopener">Sphinx</a>, a Python-based static-site generator specifically designed for documentation and a Docs-as-Code approach.  To deploy this site, I created a virtual environment in VS Code and installed the Sphinx package with PIP.  I then configured the project to use <a href="https://en.wikipedia.org/wiki/Markdown" target="_blank" title="Markdown on Wikipedia" rel="noopener">Markdown</a> files as the source.
+
+
+<!-- <a href="link" target="_blank" title="" rel="noopener">text to appear</a> -->
