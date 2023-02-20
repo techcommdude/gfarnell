@@ -6,7 +6,19 @@ A Twitter-like social network website for making posts and following users.
 
 This project is deployed on Heroku (please have patience since the instance is likely sleeping but will wake up after a few seconds): <a href="https://farnellg-social-network.herokuapp.com/" target="_blank" rel="noopener">https://farnellg-social-network.herokuapp.com/</a>
 
-A screencast of the project can be found here: <a href="https://youtu.be/mnw06wUITk8" target="_blank" rel="noopener">https://youtu.be/mnw06wUITk8</a>
+<!-- A screencast of the project can be found here: <a href="https://youtu.be/mnw06wUITk8" target="_blank" rel="noopener">https://youtu.be/mnw06wUITk8</a>
+
+A screencast of the project can be found here: <a href="https://img.youtube.com/vi/mnw06wUITk8/0.jpg" target="_blank" rel="noopener">https://youtu.be/mnw06wUITk8</a> -->
+
+A screencast of the project can be found here:
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=mnw06wUITk8
+" target="_blank"><img src="https://img.youtube.com/vi/mnw06wUITk8/0.jpg"
+alt="Social Network by Geoff Farnell" width="240" height="180" /></a>
+
+<!-- A screencast of the project can be found here:
+
+[![Social Network by Geoff Farnell](https://img.youtube.com/vi/mnw06wUITk8/0.jpg)](https://www.youtube.com/watch?v=mnw06wUITk8) -->
 
 You can log in to the Heroku app above with this account that is already entered by default. No registration is required (although you can register):
 
@@ -65,7 +77,13 @@ This simple app is an eBay-like e-commerce auction site that will allow users to
 
 This project is deployed on Heroku (please have patience since the instance is likely sleeping but will wake up after a few seconds): <a href="https://python-django-commerce.herokuapp.com/" target="_blank" rel="noopener">https://python-django-commerce.herokuapp.com/</a>
 
-A screencast of the project can be found here: <a href="https://youtu.be/6WfF_JHMtnU" target="_blank" rel="noopener">https://youtu.be/6WfF_JHMtnU</a>
+<!-- A screencast of the project can be found here: <a href="https://youtu.be/6WfF_JHMtnU" target="_blank" rel="noopener">https://youtu.be/6WfF_JHMtnU</a> -->
+
+A screencast of the project can be found here:
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=6WfF_JHMtnU
+" target="_blank"><img src="https://img.youtube.com/vi/6WfF_JHMtnU/0.jpg"
+alt="Commerce site by Geoff Farnell" width="240" height="180" /></a>
 
 You can log in to the Heroku app above with this account that is already entered by default. No registration is required (although you can register):
 
@@ -119,7 +137,13 @@ You can also register and create your own credentials.
 
 This project is deployed on Heroku (please have patience since the instance is likely sleeping but will wake up after a few seconds): <a href="https://mail-client-gfarnell.herokuapp.com/" target="_blank" rel="noopener">https://mail-client-gfarnell.herokuapp.com/</a>
 
-A screencast of the project can be found here: <a href="https://youtu.be/V2s00sozPkU" target="_blank" rel="noopener">https://youtu.be/V2s00sozPkU</a>
+<!-- A screencast of the project can be found here: <a href="https://youtu.be/V2s00sozPkU" target="_blank" rel="noopener">https://youtu.be/V2s00sozPkU</a> -->
+
+A screencast of the project can be found here:
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=V2s00sozPkU
+" target="_blank"><img src="https://img.youtube.com/vi/V2s00sozPkU/0.jpg"
+alt="Commerce site by Geoff Farnell" width="240" height="180" /></a>
 
 You can log in to the Heroku app above with this account that is already entered by default. No registration is required (although you can register):
 
@@ -180,7 +204,13 @@ This application allows users to create wiki topics/entries in Markdown format a
 
 This project is deployed on Heroku (have patience since the instance is likely sleeping): <a href="https://wiki-markdown-gfarnell.herokuapp.com/" target="_blank" rel="noopener">https://wiki-markdown-gfarnell.herokuapp.com/</a>
 
-A screencast of the project can be found here: <a href="https://youtu.be/XYzJSfeYuJI" target="_blank" rel="noopener">https://youtu.be/XYzJSfeYuJI</a>
+<!-- A screencast of the project can be found here: <a href="https://youtu.be/XYzJSfeYuJI" target="_blank" rel="noopener">https://youtu.be/XYzJSfeYuJI</a> -->
+
+A screencast of the project can be found here:
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=XYzJSfeYuJI
+" target="_blank"><img src="https://img.youtube.com/vi/XYzJSfeYuJI/0.jpg"
+alt="Commerce site by Geoff Farnell" width="240" height="180" /></a>
 
 Some of the technologies I used when building the wiki app:
 
@@ -229,7 +259,13 @@ Some of the technologies I used when building the wiki app:
 
 This project is deployed on Heroku (have patience since the instance is likely sleeping): <a href="https://static-site-geoff.herokuapp.com/index.html" target="_blank" rel="noopener">https://static-site-geoff.herokuapp.com/index.html</a>
 
-A screencast of the project can be found here: <a href="https://youtu.be/NbiYeKpHp8g" target="_blank" rel="noopener">https://youtu.be/NbiYeKpHp8g</a>
+<!-- A screencast of the project can be found here: <a href="https://youtu.be/NbiYeKpHp8g" target="_blank" rel="noopener">https://youtu.be/NbiYeKpHp8g</a> -->
+
+A screencast of the project can be found here:
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=NbiYeKpHp8g
+" target="_blank"><img src="https://img.youtube.com/vi/NbiYeKpHp8g/0.jpg"
+alt="Commerce site by Geoff Farnell" width="240" height="180" /></a>
 
 This site attempts resembles the aesthetics, style and functionality of the Google Search main page, Google Image Search, and Google Advanced Search.
 
