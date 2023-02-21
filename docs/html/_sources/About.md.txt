@@ -1,6 +1,6 @@
 # About me
 
-I'm a Senior Technical Writer in the Toronto, Canada area with an interest in helping customers, partners and developers be more productive with useful documentation.  I'm driven to create content for users that makes it easier to find the critical information they require for a successful implementation and user experience. I love being part of a team that strives to deliver a world-class product.  I believe good documentation can make a substantial contribution to the success of a product.
+I'm a Senior Technical Writer in the Toronto, Canada area with an interest in helping customers, partners and developers be more productive with useful documentation.  I'm driven to create content for users that makes it easier to find the critical information they require for a successful implementation and user experience. I love being part of a team that strives to deliver a world-class product and I believe good documentation can make a substantial contribution to product success.
 
 Please feel free to contact me if you have more questions about my qualifications and what I can do for your organization.
 
