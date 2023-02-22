@@ -1,22 +1,28 @@
 # Portfolio
 
-## Infor Documentation
+## Infor Workforce Management Documentation
 
-I worked on this documentation at Infor.  If you need more specific information, please don't hesitate to ask.
+I worked on this documentation at Infor for the Workforce Management product.  Workforce Management is an enterprise workforce management software solution with time and attendance, demand-driven scheduling, workforce scheduling, and absence management tools.
 
-* [https://docs.infor.com/en-us/wfm/2023](https://docs.infor.com/en-us/wfm/2023 "Infor Documentation for Workforce Management")
+If you need more specific information, please don't hesitate to ask.
+
+<!-- * [https://docs.infor.com/en-us/wfm/2023](https://docs.infor.com/en-us/wfm/2023 "Infor Documentation for Workforce Management") -->
+
+* <a href="https://docs.infor.com/en-us/wfm/2023" target="_blank" rel="noopener" title="Infor Documentation for Workforce Management">https://docs.infor.com/en-us/wfm/2023</a>
 
 
 ## IBM Documentation
 
-I worked on this documentation at IBM.  If you need more specific information, please don't hesitate to ask.
+I worked on this documentation at IBM for InfoSphere Change Data Capture.  It's a database replication product that allows you to replicate database updates to target databases from many different vendors.   If you need more specific information on my contributions to this product documentation, please don't hesitate to ask.
 
-* [https://www.ibm.com/docs/en/idr/11.4.0?topic=change-data-capture-cdc-replication](https://www.ibm.com/docs/en/idr/11.4.0?topic=change-data-capture-cdc-replication "IBM documentation")
+<!-- * [https://www.ibm.com/docs/en/idr/11.4.0?topic=change-data-capture-cdc-replication](https://www.ibm.com/docs/en/idr/11.4.0?topic=change-data-capture-cdc-replication "IBM documentation") -->
+
+* <a href="https://www.ibm.com/docs/en/idr/11.4.0?topic=change-data-capture-cdc-replication" target="_blank" rel="noopener" title="IBM documentation.">https://www.ibm.com/docs/en/idr/11.4.0?topic=change-data-capture-cdc-replication</a>
 
 
 ## Live demo projects deployed on Heroku
 
-I've also deployed a number of demo web applications (built with Django/Python, JavaScript, HTML and CSS ) on Heroku. For more information, see [Web application demos](Demoapplications.md "Web application demos").
+I've also created and deployed a number of full-stack web applications (built with Django/Python, JavaScript, HTML and CSS ) that are live on Heroku. For more information, see [Web application demos](Demoapplications.md "Web application demos").
 
 
 <!--TODO: This works for internal pages.  Have not figured out how to link to subtopics or headings within page or on other pages:  see [Web application demos](Demoapplications.md "Web application demos"). -->

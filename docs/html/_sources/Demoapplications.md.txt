@@ -1,5 +1,7 @@
 # Web application demos
 
+This secction contains live demos for a number of full-stack web applications that I built using Django/Python, JavaScript(vanilla), HTML and CSS.
+
 ## Social Networking site
 
 A Twitter-like social network website for making posts and following users.
