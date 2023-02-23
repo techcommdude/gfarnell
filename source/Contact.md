@@ -2,7 +2,7 @@
 
 ## Current resume
 
-My current resume is available for download, [here](../source/_static/Geoff_Farnell_CV_Senior_Technical_Writer_Feb_2023.pdf "Resume for Geoff Farnell").
+My current resume is available for download, [here](../source/_static/Geoff_Farnell_CV_Senior_Technical_Writer_0223_2023.pdf "Resume for Geoff Farnell").
 
 ## GitHub profile
 
