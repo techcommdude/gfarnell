@@ -15,8 +15,8 @@ A screencast of the project can be found here: <a href="https://img.youtube.com/
 A screencast of the project can be found here:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=mnw06wUITk8
-" target="_blank"><img src="https://img.youtube.com/vi/mnw06wUITk8/0.jpg"
-alt="Social Network by Geoff Farnell" width="240" height="180" /></a>
+" target="_blank"><img src="_static/Network.gif"
+alt="Social Network by Geoff Farnell" width="600" height="360" /></a>
 
 <!-- A screencast of the project can be found here:
 
