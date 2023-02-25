@@ -12,7 +12,7 @@ This project is deployed on Heroku (please have patience since the instance is l
 
 A screencast of the project can be found here: <a href="https://img.youtube.com/vi/mnw06wUITk8/0.jpg" target="_blank" rel="noopener">https://youtu.be/mnw06wUITk8</a> -->
 
-A screencast of the project can be found here:
+A screencast of the project is available on YouTube:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=mnw06wUITk8
 " target="_blank"><img src="_static/Network.gif"
@@ -81,7 +81,7 @@ This project is deployed on Heroku (please have patience since the instance is l
 
 <!-- A screencast of the project can be found here: <a href="https://youtu.be/6WfF_JHMtnU" target="_blank" rel="noopener">https://youtu.be/6WfF_JHMtnU</a> -->
 
-A screencast of the project can be found here:
+A screencast of the project is available on YouTube:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=6WfF_JHMtnU
 " target="_blank"><img src="https://img.youtube.com/vi/6WfF_JHMtnU/0.jpg"
@@ -141,7 +141,7 @@ This project is deployed on Heroku (please have patience since the instance is l
 
 <!-- A screencast of the project can be found here: <a href="https://youtu.be/V2s00sozPkU" target="_blank" rel="noopener">https://youtu.be/V2s00sozPkU</a> -->
 
-A screencast of the project can be found here:
+A screencast of the project is available on YouTube:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=V2s00sozPkU
 " target="_blank"><img src="https://img.youtube.com/vi/V2s00sozPkU/0.jpg"
@@ -208,7 +208,7 @@ This project is deployed on Heroku (have patience since the instance is likely s
 
 <!-- A screencast of the project can be found here: <a href="https://youtu.be/XYzJSfeYuJI" target="_blank" rel="noopener">https://youtu.be/XYzJSfeYuJI</a> -->
 
-A screencast of the project can be found here:
+A screencast of the project is available on YouTube:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=XYzJSfeYuJI
 " target="_blank"><img src="https://img.youtube.com/vi/XYzJSfeYuJI/0.jpg"
@@ -263,7 +263,7 @@ This project is deployed on Heroku (have patience since the instance is likely s
 
 <!-- A screencast of the project can be found here: <a href="https://youtu.be/NbiYeKpHp8g" target="_blank" rel="noopener">https://youtu.be/NbiYeKpHp8g</a> -->
 
-A screencast of the project can be found here:
+A screencast of the project is available on YouTube:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=NbiYeKpHp8g
 " target="_blank"><img src="https://img.youtube.com/vi/NbiYeKpHp8g/0.jpg"
