@@ -84,7 +84,7 @@ This project is deployed on Heroku (please have patience since the instance is l
 A screencast of the project is available on YouTube:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=6WfF_JHMtnU
-" target="_blank"><img src="https://img.youtube.com/vi/6WfF_JHMtnU/0.jpg"
+" target="_blank"><img src="_static/Commerce3.gif"
 alt="Commerce site by Geoff Farnell" width="240" height="180" /></a>
 
 You can log in to the Heroku app above with this account that is already entered by default. No registration is required (although you can register):
@@ -144,7 +144,7 @@ This project is deployed on Heroku (please have patience since the instance is l
 A screencast of the project is available on YouTube:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=V2s00sozPkU
-" target="_blank"><img src="https://img.youtube.com/vi/V2s00sozPkU/0.jpg"
+" target="_blank"><img src="_static/Mail.gif"
 alt="Commerce site by Geoff Farnell" width="240" height="180" /></a>
 
 You can log in to the Heroku app above with this account that is already entered by default. No registration is required (although you can register):
