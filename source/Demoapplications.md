@@ -85,7 +85,7 @@ A screencast of the project is available on YouTube:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=6WfF_JHMtnU
 " target="_blank"><img src="_static/Commerce3.gif"
-alt="Commerce site by Geoff Farnell" width="240" height="180" /></a>
+alt="Commerce site by Geoff Farnell" width="600" height="360" /></a>
 
 You can log in to the Heroku app above with this account that is already entered by default. No registration is required (although you can register):
 
@@ -145,7 +145,7 @@ A screencast of the project is available on YouTube:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=V2s00sozPkU
 " target="_blank"><img src="_static/Mail.gif"
-alt="Commerce site by Geoff Farnell" width="240" height="180" /></a>
+alt="Mail application by Geoff Farnell" width="600" height="360" /></a>
 
 You can log in to the Heroku app above with this account that is already entered by default. No registration is required (although you can register):
 
@@ -212,7 +212,7 @@ A screencast of the project is available on YouTube:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=XYzJSfeYuJI
 " target="_blank"><img src="https://img.youtube.com/vi/XYzJSfeYuJI/0.jpg"
-alt="Commerce site by Geoff Farnell" width="240" height="180" /></a>
+alt="Wiki for markdown by Geoff Farnell" width="600" height="360" /></a>
 
 Some of the technologies I used when building the wiki app:
 
@@ -267,7 +267,7 @@ A screencast of the project is available on YouTube:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=NbiYeKpHp8g
 " target="_blank"><img src="https://img.youtube.com/vi/NbiYeKpHp8g/0.jpg"
-alt="Commerce site by Geoff Farnell" width="240" height="180" /></a>
+alt="Google search site by Geoff Farnell" width="600" height="360" /></a>
 
 This site attempts resembles the aesthetics, style and functionality of the Google Search main page, Google Image Search, and Google Advanced Search.
 
