@@ -211,7 +211,7 @@ This project is deployed on Heroku (have patience since the instance is likely s
 A screencast of the project is available on YouTube:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=XYzJSfeYuJI
-" target="_blank"><img src="https://img.youtube.com/vi/XYzJSfeYuJI/0.jpg"
+" target="_blank"><img src="_static/wiki.gif"
 alt="Wiki for markdown by Geoff Farnell" width="600" height="360" /></a>
 
 Some of the technologies I used when building the wiki app:
@@ -266,7 +266,7 @@ This project is deployed on Heroku (have patience since the instance is likely s
 A screencast of the project is available on YouTube:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=NbiYeKpHp8g
-" target="_blank"><img src="https://img.youtube.com/vi/NbiYeKpHp8g/0.jpg"
+" target="_blank"><img src="_static/Search.gif"
 alt="Google search site by Geoff Farnell" width="600" height="360" /></a>
 
 This site attempts resembles the aesthetics, style and functionality of the Google Search main page, Google Image Search, and Google Advanced Search.
