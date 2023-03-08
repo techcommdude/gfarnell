@@ -2,9 +2,7 @@
 
 ## Infor Workforce Management Documentation
 
-I worked on this documentation at Infor for the Workforce Management product.  Workforce Management is an enterprise workforce management software solution with time and attendance, demand-driven scheduling, workforce scheduling, and absence management tools.
-
-If you need more specific information, please don't hesitate to ask.
+At Infor, I worked on the Workforce Management documentation (see link below).  Workforce Management is an enterprise workforce management software solution with time and attendance, demand-driven scheduling, workforce scheduling, and absence management tools.  If you need more specific information on my contributions to this product documentation, please don't hesitate to ask.
 
 <!-- * [https://docs.infor.com/en-us/wfm/2023](https://docs.infor.com/en-us/wfm/2023 "Infor Documentation for Workforce Management") -->
 
@@ -13,7 +11,7 @@ If you need more specific information, please don't hesitate to ask.
 
 ## IBM Documentation
 
-I worked on this documentation at IBM for InfoSphere Change Data Capture.  It's a database replication product that allows you to replicate database updates to target databases from many different vendors.   If you need more specific information on my contributions to this product documentation, please don't hesitate to ask.
+At IBM, I worked on the InfoSphere Change Data Capture documentation (see link below).  It's a database replication product that allows you to replicate database updates to target databases from many different vendors.   If you need more specific information on my contributions to this product documentation, please don't hesitate to ask.
 
 <!-- * [https://www.ibm.com/docs/en/idr/11.4.0?topic=change-data-capture-cdc-replication](https://www.ibm.com/docs/en/idr/11.4.0?topic=change-data-capture-cdc-replication "IBM documentation") -->
 

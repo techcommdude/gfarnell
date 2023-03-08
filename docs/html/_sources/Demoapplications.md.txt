@@ -168,15 +168,15 @@ Some of the technologies I used when building this demo application:
 Using JavaScript, HTML, and CSS, complete the implementation of your single-page-app email client inside of inbox.js (and not additional or other files; for grading purposes, we’re only going to be considering inbox.js!). You must fulfill the following requirements:
 
 * **Send Mail**: When a user submits the email composition form, add JavaScript code to actually send the email.
-    * You’ll likely want to make a POST request to /emails, passing in values for recipients, subject, and body.
-    * Once the email has been sent, load the user’s sent mailbox.
+  * You’ll likely want to make a POST request to /emails, passing in values for recipients, subject, and body.
+  * Once the email has been sent, load the user’s sent mailbox.
 
 * **Mailbox**: When a user visits their Inbox, Sent mailbox, or Archive, load the appropriate mailbox.
-    * You’ll likely want to make a GET request to /emails/<mailbox> to request the emails for a particular mailbox.
-    * When a mailbox is visited, the application should first query the API for the latest emails in that mailbox.
-    * When a mailbox is visited, the name of the mailbox should appear at the top of the page (this part is done for you).
-    * Each email should then be rendered in its own box (e.g. as a <div> with a border) that displays who the email is from, what the subject line is, and the timestamp of the email.
-    * If the email is unread, it should appear with a white background. If the email has been read, it should appear with a gray background.
+  * You’ll likely want to make a GET request to /emails/<mailbox> to request the emails for a particular mailbox.
+  * When a mailbox is visited, the application should first query the API for the latest emails in that mailbox.
+  * When a mailbox is visited, the name of the mailbox should appear at the top of the page (this part is done for you).
+  * Each email should then be rendered in its own box (e.g. as a <div> with a border) that displays who the email is from, what the subject line is, and the timestamp of the email.
+  * If the email is unread, it should appear with a white background. If the email has been read, it should appear with a gray background.
 
 * **View Email**: When a user clicks on an email, the user should be taken to a view where they see the content of that email.
     * You’ll likely want to make a GET request to /emails/<email_id> to request the email.
@@ -302,7 +302,7 @@ Some of the technologies used when building this project:
     * When the “Advanced Search” button is clicked, the user is taken to the search results page for their given query.
 
 * The “I’m Feeling Lucky” button on the main Google Search page is consistent with Google’s own behavior. Clicking this link takes users directly to the first Google search result for the query, bypassing the normal results page.
-    * You may encounter a redirect notice when using the “I’m Feeling Lucky” button, but this is an expected consequence of a security feature implemented by Google.
+  * You may encounter a redirect notice when using the “I’m Feeling Lucky” button, but this is an expected consequence of a security feature implemented by Google.
 
 * The CSS resembles Google’s own aesthetics.
 

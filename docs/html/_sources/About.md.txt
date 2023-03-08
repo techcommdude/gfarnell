@@ -6,18 +6,19 @@ Please feel free to contact me if you have more questions about my qualification
 
 ## Software skills
 
+* **Authoring tools**: Oxygen XML Author, Madcap Flare, Ixiasoft CMS, Arbortext, DITA,
+Microsoft Office, Framemaker, Acrobat, Visio
+
+* **Source control**: Git, GitHub, SVN
+
+* **OS**: Linux/UNIX/Windows
+
 * **Software Development**: Python, Javascript (vanilla), Java, HTML, Markdown, CSS,
 VS Code, Postman, REST APIs, Django web framework, Heroku, JIRA/Confluence,
 Eclipse
 
 * **Database**: Oracle, SQL Server, SQLite3 in Django
 
-* **OS**: Linux/UNIX/Windows
-
-* **Authoring tools**: Oxygen XML Author, Madcap Flare, Ixiasoft CMS, Arbortext, DITA,
-Microsoft Office, Framemaker, Acrobat, Visio
-
-* **Source control**: Git, GitHub, SVN
 
 ## About this site
 
